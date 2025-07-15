@@ -1,0 +1,39 @@
+
+HelloWorld.o:     file format pe-x86-64
+
+
+Disassembly of section .text:
+
+0000000000000000 <main>:
+   0:	55                   	push   rbp
+   1:	48 89 e5             	mov    rbp,rsp
+   4:	48 83 ec 30          	sub    rsp,0x30
+   8:	e8 00 00 00 00       	call   d <main+0xd>
+   d:	c7 45 fc 0a 00 00 00 	mov    DWORD PTR [rbp-0x4],0xa
+  14:	c7 45 f8 14 00 00 00 	mov    DWORD PTR [rbp-0x8],0x14
+  1b:	8b 55 fc             	mov    edx,DWORD PTR [rbp-0x4]
+  1e:	8b 45 f8             	mov    eax,DWORD PTR [rbp-0x8]
+  21:	01 d0                	add    eax,edx
+  23:	89 45 f4             	mov    DWORD PTR [rbp-0xc],eax
+  26:	8b 45 f4             	mov    eax,DWORD PTR [rbp-0xc]
+  29:	89 c2                	mov    edx,eax
+  2b:	48 8d 0d 00 00 00 00 	lea    rcx,[rip+0x0]        # 32 <main+0x32>
+  32:	e8 00 00 00 00       	call   37 <main+0x37>
+  37:	b8 00 00 00 00       	mov    eax,0x0
+  3c:	48 83 c4 30          	add    rsp,0x30
+  40:	5d                   	pop    rbp
+  41:	c3                   	ret    
+  42:	90                   	nop
+  43:	90                   	nop
+  44:	90                   	nop
+  45:	90                   	nop
+  46:	90                   	nop
+  47:	90                   	nop
+  48:	90                   	nop
+  49:	90                   	nop
+  4a:	90                   	nop
+  4b:	90                   	nop
+  4c:	90                   	nop
+  4d:	90                   	nop
+  4e:	90                   	nop
+  4f:	90                   	nop

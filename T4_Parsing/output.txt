@@ -1,0 +1,4 @@
+Noun
+Verb
+Object
+Parsing Finished
