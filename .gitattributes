@@ -1,0 +1,16 @@
+# Set default behavior for all files
+* text=auto
+
+# Force LF line endings for source files
+*.c text eol=lf
+*.h text eol=lf
+*.l text eol=lf
+*.y text eol=lf
+Makefile text eol=lf
+*.md text eol=lf
+
+# Binary files
+*.exe binary
+*.o binary
+*.so binary
+*.dll binary

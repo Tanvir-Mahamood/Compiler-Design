@@ -1,0 +1,3 @@
+I = NOUN
+EAT = VERB
+RICE = OBJECT
