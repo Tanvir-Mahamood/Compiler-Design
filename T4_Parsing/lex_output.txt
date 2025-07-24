@@ -1,3 +1,5 @@
-I = NOUN
-EAT = VERB
-RICE = OBJECT
+=== Lexical Analysis ===
+Token: I -> Noun
+Token: eat -> Verb
+Token: rice -> Object
+=== Tokenization Complete ===

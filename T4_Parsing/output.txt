@@ -1,4 +1,12 @@
-Noun
-Verb
-Object
+while = WHILE
+( = LP
+1 = INTNUM
+) = RP
+{ = LB
+int = TYPE_INT
+a = VAR
+= = EQUL
+20 = INTNUM
+; = SEMI
+} = RB
 Parsing Finished
