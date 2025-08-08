@@ -8,7 +8,7 @@ int yylex();
 %start S
 
 %%
-S: N V O { printf("Parsing Finished\n"); }
+S: N V O { printf("It Has Matched\n"); }
 ;
 %%
 
@@ -17,5 +17,7 @@ void yyerror(const char *s) {
 }
 
 int main() {
-    return yyparse();
+    yyparse();
+    printf("Parsing Finished\n");
+    return 0;
 }

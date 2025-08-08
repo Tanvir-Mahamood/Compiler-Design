@@ -1,0 +1,5 @@
+KUET = UNI
+ CSE = DEPT
+ 20 = SERIES
+It Has Matched
+Parsing Finished

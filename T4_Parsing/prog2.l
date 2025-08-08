@@ -10,8 +10,3 @@
 "20" {printf("%s = SERIES\n", yytext); return(SERIES);}
 %%
 
-//int main()
-//{
-//    yylex();
-//    return 0;
-//}

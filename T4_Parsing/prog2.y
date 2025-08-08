@@ -8,7 +8,7 @@ int yylex();
 %start S
 
 %%
-S: UNI DEPT SERIES ;
+S: UNI DEPT SERIES { printf("It Has Matched\n"); };
 %%
 
 int main()

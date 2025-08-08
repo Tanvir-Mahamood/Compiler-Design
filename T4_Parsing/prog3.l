@@ -19,9 +19,3 @@
 [ \t\n]        { /* skip whitespace */ }
 .              { printf("Unknown character: %s\n", yytext); }
 %%
-
-//int main()
-//{
-//    yylex();
-//    return 0;
-//}

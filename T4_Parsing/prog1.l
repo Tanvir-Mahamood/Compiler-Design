@@ -1,3 +1,5 @@
+%option noyywrap
+
 %{
 #include "prog1.tab.h"
 %}
@@ -9,7 +11,3 @@
 [ \t\n]+       { /* skip whitespace */ }
 .              { printf("Unknown Token: %s\n", yytext); return -1; }
 %%
-
-int yywrap() {
-    return 1;
-}

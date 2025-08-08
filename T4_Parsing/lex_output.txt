@@ -1,5 +1,8 @@
 === Lexical Analysis ===
 Token: I -> Noun
 Token: eat -> Verb
-Token: rice -> Object
+Token: Rice -> Object
+Unknown Token: a
+Unknown Token: n
+Unknown Token: d
 === Tokenization Complete ===

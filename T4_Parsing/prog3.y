@@ -8,7 +8,7 @@ int yylex();
 %start S
 
 %%
-S: WHILE LP INTNUM RP LB STMT RB ;
+S: WHILE LP INTNUM RP LB STMT RB { printf("It Has Matched\n"); };
 
 STMT: TYPE_INT VAR EQUL INTNUM SEMI ;
 %%
