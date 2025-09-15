@@ -1,0 +1,25 @@
+=== Syntax Analysis ===
+while = WHILE
+( = LP
+Token = a -> Identifier
+Token = < -> Less Than
+Token = b -> Identifier
+) = RP
+{ = LB
+Token = a -> Identifier
+Token = = -> Operator
+Token = a -> Identifier
+Token = + -> Operator
+Token = b -> Identifier
+Token = * -> Operator
+Token = 6 -> Number
+; = SEMI
+Token = b -> Identifier
+Token = = -> Operator
+Token = 5 -> Number
+Token = + -> Operator
+Token = a -> Identifier
+; = SEMI
+} = RB
+String Matched
+=== Parsing Completed ===
