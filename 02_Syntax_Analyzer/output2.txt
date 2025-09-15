@@ -1,0 +1,10 @@
+=== Syntax Analysis ===
+Token = a -> Identifier
+Token = = -> Operator
+Token = 20 -> Number
+Token = + -> Operator
+Token = bc -> Identifier
+Token = * -> Operator
+Token = 5 -> Number
+Valid Assignment
+=== Parsing Completed ===

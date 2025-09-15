@@ -1,0 +1,8 @@
+=== Syntax Analysis ===
+Token = I -> Noun
+Token = Rice -> Object
+Error: Invalid Sentence
+Error: Invalid Sentence
+Token = eat -> Verb
+Error: Invalid Sentence
+=== Parsing Completed ===

@@ -1,0 +1,7 @@
+=== Lexical Analysis ===
+Token = I -> Noun
+Token = eat -> Verb
+Unknown Token: g
+Unknown Token: m
+Token = Rice -> Object
+=== Tokenization Completed ===

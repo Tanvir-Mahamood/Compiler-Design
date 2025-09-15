@@ -1,0 +1,6 @@
+=== Syntax Analysis ===
+Token = KUET -> Uni
+Token = ME -> Dept
+Token = 20 -> Series
+Valid Sentence
+=== Parsing Completed ===

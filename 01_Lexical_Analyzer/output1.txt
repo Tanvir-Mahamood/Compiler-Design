@@ -1,0 +1,5 @@
+=== Lexical Analysis ===
+Token = KUET -> Uni
+Token = ME -> Dept
+Token = 20 -> Series
+=== Tokenization Completed ===

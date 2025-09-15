@@ -1,0 +1,9 @@
+=== Lexical Analysis ===
+Token = a -> Identifier
+Token = = -> Operator
+Token = 20 -> Number
+Token = + -> Operator
+Token = 3 -> Number
+Token = * -> Operator
+Token = 5 -> Number
+=== Tokenization Completed ===
