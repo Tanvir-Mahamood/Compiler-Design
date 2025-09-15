@@ -16,5 +16,11 @@ main2:
 	gcc lex.yy.c prog2.tab.c -o parser.exe
 	parser.exe < input2.txt > output2.txt
 
+main3:
+	bison -d prog3.y
+	flex prog3.l
+	gcc lex.yy.c prog3.tab.c -o parser.exe
+	parser.exe < input3.txt > output3.txt
+
 clean:
 	rm -f parser.exe lex.yy.c *.tab.c *.tab.h
